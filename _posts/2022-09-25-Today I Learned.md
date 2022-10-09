@@ -1,5 +1,6 @@
 # Today I Learned
 
+<<<<<<< HEAD
 > > 매일매일 공부한 것을 기록합니다.
 
 ## 전체과정 : Python, SQL, R, RPA, WEB 과정으로 진행 : 2022.05.10 ~ 2022.11.07(6개월)**
@@ -20,13 +21,39 @@
 ### 웹 개요 : HTML 기본구조
 - 주요 테그 title, meta, link, hn, p, img, header, nav, link, main, div, article, section, aside, footer 등
 - 오픈 그래프(sns공유 하도록 설정) : meta property="속성 이름" content="속성값"
+=======
+\> > 매일매일 공부한 것을 기록합니다.
+
+## 전체과정 : Python, SQL, R, RPA, WEB 과정으로 진행 : 2022.05.10 ~ 2022.11.07(6개월)**
+
+전 과정 기록은 어렵고, WEB과정을 날짜 별로 기록 해볼까 합니다.
+
+
+
+## 9월08일 HTML5
+
+- 그동안 보기만했던 웹 개발을 시작하였다.
+- HTML5는 웹기술의 종합 완성품이다.
+- 또한 이전과 같은 단순한 웹페이지가 아니고, 모든 장치와 연결하여 정보를 제공하는 플랫폼이다.
+### 앞으로 HTML, CSS, Javascript를 배울것이다
+- meta 태그 : 문서의 각종정보를 전달하는 중요한 테그
+- CSS(cascading style sheets) : 웹 문서의 전반적인 스타일을 미리 저장해 둔 스타일시트
+- 자바스크립트(JavaScript) : 웹 페이지에서 사용자로부터 특정 이벤트나 입력 값을 받아 동적인 처리를 목적으로 고안된 객체 기반의 스크립트 프로그래밍 언어
+### 웹개요 : HTML 기본구조
+- 주요테그 title, meta, link, hn, p, img, header, nav, link, main, div, article, section, aside, footer 등
+- 오픈그래프(sns공유 하도록 설정) : meta property="속성 이름" content="속성 값"
+>>>>>>> 2a2257c202673af5efd896000f6d1b2980685b15
 - 파비콘은 favirote icon의 약어로 title 아이콘으로 사용한다. [파비콘 사이트](https://www.favicon-generator.org/)
 ### 태그와 요소(element, 엘리먼트) 차이
 - 태그(tag)는 마크업을 위해 약속한 기호
 - 요소(element)는 태그와 내용을 함께 묶어서 부르는 용어
 html5
 
+<<<<<<< HEAD
 ## 2022-09-13 github 기초/ 이보라 강사님
+=======
+## 2022-09-13 github 기초/ 이보라강사님
+>>>>>>> 2a2257c202673af5efd896000f6d1b2980685b15
 ### 리눅스 커맨드라인 기초
 #### pwd, cd, ls
 #### `pwd` : print working directory
@@ -36,6 +63,7 @@ html5
 #### -- 'tab'을 사용하면 경로 자동완성이 됨
 #### `ls` : list; 옵션 예) ls -a, ls -l, ls -al
 #### `mkdir` : make directory
+<<<<<<< HEAD
 #### `history` : 과거에 쳤던 명령어를 알려 줌
 #### 123번째 명령어를 복구하고 싶으면 123 입력
 #### vim 사용법
@@ -51,6 +79,23 @@ html5
 - 저장 후 끝내려면 :q
 - [참고 자료] [링크](https://ssayebee.github.io/wiki/how_to_use_vim.html)
 #### 마크다운 사용법
+=======
+#### `history` : 과거에 쳤던명령어를 알려 줌
+#### 123번째 명령어를 복구하고 싶으면 123 입력
+#### vim 사용법
+- 명령모드와 입력모드
+- vim 에디터를 열때는 명령모드로 진입함
+- 명령모드에서는 입력이불가능
+- 입력을하려면 입력보드로 바꿔야함
+- 키보드에서 'i' 누름
+- 입력이 끄나고, 저장하고 나오려면 명령모드로 바꿔야함
+- 키보드에서 esc를 눌러야함
+- 끝내려면 :wq 를 입력하면 됩
+- 파일명을 입력하려면 :w '파일명'
+- 저장 후 끝내려면 :q
+- [참고자료] [링크](https://ssayebee.github.io/wiki/how_to_use_vim.html)
+#### 마크다운사용법
+>>>>>>> 2a2257c202673af5efd896000f6d1b2980685b15
 <!-- Heading -->
 # Heading1
 ## Heading2
@@ -95,6 +140,7 @@ Descroption
 ```python
 Descroption
 ```
+<<<<<<< HEAD
 - vim 비정상종료시 해결 방법
 - vim이 비정상 종료되면 'swp'파일이 생성됨
 - ATTENTION 문구가 뜨는 경우
@@ -111,12 +157,34 @@ Descroption
 #### 다양한 버전관리 방법
 #### 커밋
 - 변경이 있을 때 만듬
+=======
+- vim 비정상종료시 해결방법
+- vim이 비정상종료되면 'swp'파일이 생성됨
+- ATTENTION 문구가뜨는경우
+1. 두 프로세스, 두 사람이 동시에 한 파일을 수정하는 경우
+2. crash가 나서 vim이 비정상적으로 닫힌 경우
+- 기존에 입력했던 내용을 복구하고 싶을때는 vim -r 파일명을 입력하거나 Recovery모드로 진입
+- 정상 종료 후, swp 파일 삭제
+- rm .789.txt.swp <-- rm 명령어는 remove 약자
+#### 오프라인 버전관리시스템과 git
+#### 버전관리시스템을 사용하는이유
+1.  실행취소, 재실행이 가능함
+2.  버전간 소스비교가 가능합
+3.  협업이 가능합
+#### 다양한 버전관리방법
+#### 커밋
+- 변경이 있을때 만듬
+>>>>>>> 2a2257c202673af5efd896000f6d1b2980685b15
 - 가능하면 커밋크기가 작을수록 좋음
 #### 리포지토리
 -리포? 라고 줄임말을 사용한다.
 
 ## Git Bash 세팅하기
+<<<<<<< HEAD
 - [깃 최초 설정](https://git-scm.com/book/ko/v2/%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0-Git-%EC%B5%9C%EC%B4%88-%EC%84%A4%EC%A0%95)
+=======
+- [깃 최초설정](https://git-scm.com/book/ko/v2/%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0-Git-%EC%B5%9C%EC%B4%88-%EC%84%A4%EC%A0%95)
+>>>>>>> 2a2257c202673af5efd896000f6d1b2980685b15
 
   ```python
   - $ git config --global user.name "John Doe"
@@ -124,9 +192,15 @@ Descroption
   - $ git config --global core.autocrlf true
   ```
 #### 리포지토리
+<<<<<<< HEAD
 - 정의: 여러 파일을 하나로 모은 컬렉션
 - 일반디렉터리와 디포지터리의 차이 .git
 - 주요 명령어 // 복사 shift + insert
+=======
+- 정의: 여러파일을 하나로 모은컬렉션
+- 일반디렉터리와 디포지터리의 차이 .git
+- 주요명령어 // 복사 shift + insert
+>>>>>>> 2a2257c202673af5efd896000f6d1b2980685b15
 
   ```python
   git status
@@ -136,7 +210,11 @@ Descroption
   git rebase
   git push origin main
   git log
+<<<<<<< HEAD
   git reset --hard "hash"   /hash 없으면 마지막 상태로 돌아감 git reset --hard
+=======
+  git reset --hard "hash"   /hash 없으면 마지막상태로 돌아감 git reset --hard
+>>>>>>> 2a2257c202673af5efd896000f6d1b2980685b15
   git revert " hash"
   git revert --no-commit "hash"
   git branch add-coach
@@ -147,12 +225,17 @@ Descroption
   git branch -d           /브렌치삭제
   ```
 
+<<<<<<< HEAD
 ## 9월 14일
+=======
+## 9월14일
+>>>>>>> 2a2257c202673af5efd896000f6d1b2980685b15
 ### 텍스트 관련 태그
 - h1~h6, p, br, hr(가로줄), blockquote(인용문 넣기), pre, strong, b, em(기울임), i, cite
 - ul(순서 없는 목록), ol(순서 목록), li(list), dl(설명 목록), dt, dd
 - 기타 태그 : address, time, span(영역 묶기-인라인 레벨 형태로 소스를 묶음), div(블록 레벨 형태로 소스를 묶음)
 ### 이미지 관련 태그
+<<<<<<< HEAD
 - img src="이미지파일" alt="이미지 설명텍스트">, 이미지(gif, jpg/jpeg, png)
 - width, height 속성: %(화면크기에 자동 변환), px(픽셀 크기)
 - 이미지에 캡션 붙이기: figure태그(img태그를 figure태그로 감싼다)와 figcaption태그(이미지 설명)
@@ -167,11 +250,31 @@ Descroption
 - picture, source태그(picture태그안에 이미지(크기포함) 지정)
 - 오디오 코덱 : AAC, Aorbis, mp4/m4a, mp3(사실상표준)
 - 비디오 코덱 : mp4, webm
+=======
+- img src="이미지파일" alt="이미지설명텍스트">, 이미지(gif, jpg/jpeg, png)
+- width, height 속성: %(화면크기에 자동변환), px(픽셀크기)
+- 이미지에 캽션 붙이기: figure태그(img태그를 figure태그로 감싼다)와 figcaption태그(이미지설명)
+### 표 관련 태그
+- table(표전체), caption(표제목), tr(행-table row), td(셀-table data), th(제목셀-table heading)
+- thead, tbody, tfoot(안쓰는경우도 있음)
+- 표 편집: col, colgroup – 열끼리 묶어 스타일 지정; rowspan(행합치기), colspan(열합치기)
+
+## 9월15일
+### 웹과 멀티미디어
+- 새로운 이미지추가방법 : srcset(img src="이미지" srcset="이미지[,이미지1, 이미지2, .....])-다양한크기의 이미지 브라우저(기기)에 따라 자동선택
+- picture, source태그(picture태그안에 이미지(크기포함)지정)
+- 오디오코덱 : AAC, Aorbis, mp4/m4a, mp3(사실상표준)
+- 비디오코덱 : mp4, webm
+>>>>>>> 2a2257c202673af5efd896000f6d1b2980685b15
 ### 오디오 비디오 삽입하기
 - 비디오 오디오 태그 : embed(최신 비디오, 오디오 태그를 지원하지 않는 브라우저에서 사용), obejct태그(다양한 개체 삽입-pdf 등)
 - audio태그(audio src="오디오파일" controls)
 - video태그(video src="비디오파일" width="700“ controls)
+<<<<<<< HEAD
 - 공통속성: controls(컨트롤바 생성), autoplay, loop, muted, preload, width, height, poster="파일이름"(재생 전 표시될 포스터)
+=======
+- 공통속성: controls(컨트롤바 생성), autoplay, loop, muted, preload, width, height, poster="파일이름"(재생전 표시될 포스터)
+>>>>>>> 2a2257c202673af5efd896000f6d1b2980685b15
 - video태그(동영상의 크기와 기타 속성), source태그(코덱에 따라 달라지는 동영상 파일의 위치)
 - 텍스트 링크 : p태그로 감싸고 a href="링크주소"링크이름 또는 이미지(img src="이미지파일" alt="html로고"
 - target="\_blank" 해당 미디어가 새탭으로 열림
@@ -181,7 +284,11 @@ Descroption
 - 나의 첫번째 웹개발 및 호스팅(나의 간략 소개)
   [나의 간략소개 링크](http://mysshong.dothome.co.kr/)
 
+<<<<<<< HEAD
 ## 9월 16일
+=======
+## 9월16일
+>>>>>>> 2a2257c202673af5efd896000f6d1b2980685b15
 ### 폼(form)
 - 폼에서는 텍스트 필드, 체크박스, 버튼 등 역할마다 다른 소스를 사용해야 함
 - form태그의 속성 : action(form태그안의 내용을 처리할 서버 프로그램 지정)

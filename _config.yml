@@ -104,14 +104,22 @@ analytics:
 
 # Site Author
 author:
+<<<<<<< HEAD
   name             : "Your Name"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am an **amazing** person."
   location         : "Somewhere"
+=======
+  name             : "SangsunHong"
+  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "I am an **amazing** person."
+  location         : "Seoul,South Korea"
+>>>>>>> 2a2257c202673af5efd896000f6d1b2980685b15
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
+<<<<<<< HEAD
       # url: "mailto:your.name@email.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
@@ -128,6 +136,24 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
+=======
+      # url: "mailto:sshong3@naver.com"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      # url: "https://sangsunhong.github.io/"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      # url: "https://twitter.com/sshong3"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      # url: "https://facebook.com/sshong3"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      # url: "https://github.com/SangsunHong"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      # url: "https://instagram.com/sshong_insta"
+>>>>>>> 2a2257c202673af5efd896000f6d1b2980685b15
 
 # Site Footer
 footer:
